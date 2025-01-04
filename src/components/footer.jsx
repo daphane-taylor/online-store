@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className="footer-section">
             <footer>
-                <p>Created By: Daphane Taylor</p>
+                <p>Online Store created by Daphane Taylor</p>
             </footer>
         </div>
     );

@@ -5,8 +5,8 @@
 	border-radius: 5px;
 	color: #000000;
 	padding: 10px;
-	height: 350px;
-	width: 250px;
+	height: 360px;
+	width: 270px;
 	display: inline-block;
 	margin: 0 10px 10px 0;
 }
@@ -17,6 +17,7 @@
 }
 
 .product h3 {
+	color: darkred;
 	margin: 0;
 	text-decoration: underline;
-}
+} 
