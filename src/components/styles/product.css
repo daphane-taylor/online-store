@@ -1,0 +1,22 @@
+.product {
+	font-family: 'Candara Light';
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	color: #000000;
+	padding: 10px;
+	height: 350px;
+	width: 250px;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+
+.product img {
+	width: 250px;
+	height: auto;
+}
+
+.product h3 {
+	margin: 0;
+	text-decoration: underline;
+}

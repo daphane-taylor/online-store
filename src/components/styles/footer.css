@@ -2,15 +2,16 @@
     font-family: 'Candara Light';
     padding: 3px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around   ;
     height: 50px;
-    align-items: flex-end;
-    background-color: #000000;
+    align-items: center;
+    background-color: darkgray;
+    border: 1px solid darkgray;
 }
 
 p {
     font-family: 'Candara Light';
     text-align: center;
-    color: #FFFFFF;
+    color: #000000;
     letter-spacing: 1px;
 }

@@ -4,13 +4,15 @@
     display: flex;
     justify-content: space-around;
     height: 50px;
-    align-items: center;background-color: #000000;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
 }
 
 a {
     text-transform: uppercase;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #000000;
     letter-spacing: 1px;
     font-weight: bolder;
     text-decoration: none;

@@ -11,7 +11,6 @@ function Navbar() {
                     <a href="">Menu</a>
                 </div>
             </nav>
-        
         </div>
     );
 }

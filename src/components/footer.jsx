@@ -2,11 +2,9 @@ import './styles/footer.css'
 
 function Footer() {
     return (
-        <div>
+        <div className="footer-section">
             <footer>
-                <div className="footer-section">
-                    <p>Created By: Daphane Taylor</p>
-                </div>
+                <p>Created By: Daphane Taylor</p>
             </footer>
         </div>
     );

@@ -1,0 +1,11 @@
+.catalog {
+	background-color: #999999;
+}
+
+.catalog h1 {
+	text-align: center;
+	padding-top: 20px;
+	color: #000000;
+	font-family: cursive;
+	border: 1px solid #000000;
+}
