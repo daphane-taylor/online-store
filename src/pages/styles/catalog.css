@@ -1,11 +1,20 @@
 .catalog {
-	background-color: #999999;
+	background-color: #FFFFFF;
 }
 
-.catalog h1 {
+.catalog h2 {
+	background-color: #6c757d;
 	text-align: center;
 	padding-top: 20px;
-	color: #000000;
+	color: #FFFFFF;
 	font-family: cursive;
-	border: 1px solid #000000;
+	border: 1px solid #FFFFFF;
+}
+
+.catalog .filter {
+	margin-bottom: 10px;
+}
+
+.catalog .filter button {
+	margin-right: 5px;
 }

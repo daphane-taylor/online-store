@@ -5,13 +5,13 @@
     justify-content: space-around   ;
     height: 50px;
     align-items: center;
-    background-color: darkgray;
+    background-color: #6c757d;
     border: 1px solid darkgray;
 }
 
 p {
     font-family: 'Candara Light';
     text-align: center;
-    color: #000000;
+    color: #FFFFFF;
     letter-spacing: 1px;
 }
