@@ -26,7 +26,12 @@
 	text-decoration: underline;
 } 
 
-.product .prices {
+.product .parent {
 	display: flex;
 	justify-content: space-around;
+	margin-top: 5px;
+}
+
+.product .btn {
+	color: #FFFFFF;
 }

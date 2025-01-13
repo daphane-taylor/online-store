@@ -8,6 +8,7 @@ const dummyData = [
 		"category": "Teardrops",
 		"price": 15.00,
 		"image": "/images/amethyst-teardrop.jpg",
+		"hoverImage": "/images/amethyst-teardrop2.jpg",
 		"_id": "cw0001"
 	},
 	{
@@ -15,6 +16,7 @@ const dummyData = [
 		"category": "Slabs & Slices",
 		"price": 35.00,
 		"image": "/images/malachite-slice.jpg",
+		"hoverImage": "/images/malachite-slice2.jpg",
 		"_id": "cw0002"
 	},
 	{
@@ -22,6 +24,7 @@ const dummyData = [
 		"category": "Hearts",
 		"price": 25.00,
 		"image": "/images/flower-agate-heart.jpg",
+		"hoverImage": "/images/flower-agate-heart2.jpg", 
 		"_id": "cw0003"
 	},
 	{
@@ -29,6 +32,7 @@ const dummyData = [
 		"category": "Diamonds",
 		"price": 22.00,
 		"image": "/images/howlite-diamond.jpg",
+		"hoverImage": "/images/howlite-diamond2.jpg",
 		"_id": "cw0004"
 	},
 	{
@@ -36,6 +40,7 @@ const dummyData = [
 		"category": "Slabs & Slices",
 		"price": 40.00,
 		"image": "/images/lab-slab.jpg",
+		"hoverImage": "/images/lab-slab2.jpg",
 		"_id": "cw0005"
 	},
 	{
@@ -43,6 +48,7 @@ const dummyData = [
 		"category": "Freeforms",
 		"price": 45.00,
 		"image": "/images/sunset-lab-freeform.jpg",
+		"hoverImage": "/images/sunset-lab-freeform2.jpg",
 		"_id": "cw0006"
 	},
 	{
@@ -50,6 +56,7 @@ const dummyData = [
 		"category": "Carvings",
 		"price": 28.00,
 		"image": "/images/golden-healer-flame.jpg",
+		"hoverImage": "/images/golden-healer-flame2.jpg",
 		"_id": "cw0007"
 	},
 	{
@@ -57,7 +64,8 @@ const dummyData = [
 		"category": "Freeforms",
 		"price": 45.00,
 		"image": "/images/sm-lab-freeform.jpg",
-		"_id": "cw0006"
+		"hoverImage": "/images/sm-lab-freeform2.jpg",
+		"_id": "cw0008"
 	}
 ]
 
