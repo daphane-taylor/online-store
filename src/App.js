@@ -1,10 +1,11 @@
 import './App.css';
 import Navbar from './components/navbar'
-import Footer from './components/footer'
+import Footer from './components/foocter'
 import Catalog from './pages/catalog';
 import Home from './pages/homepage';
 import About from './pages/about';
 import Admin from './pages/admin';
+import Contact from '/pages/contact';
 
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/about" element={<About />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
 
         <Footer />
