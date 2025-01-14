@@ -48,7 +48,7 @@ const dummyData = [
 		"category": "Freeforms",
 		"price": 45.00,
 		"image": "/images/sunset-lab-freeform.jpg",
-		"hoverImage": "/images/sunset-lab-freeform2.jpg",
+		"hoverImage": "./images/sunset-lab-freeform2.jpg",
 		"_id": "cw0006"
 	},
 	{
@@ -64,7 +64,7 @@ const dummyData = [
 		"category": "Freeforms",
 		"price": 45.00,
 		"image": "/images/sm-lab-freeform.jpg",
-		"hoverImage": "/images/sm-lab-freeform2.jpg",
+		"hoverImage": "public/images/sm-lab-freeform2.jpg",
 		"_id": "cw0008"
 	}
 ]
