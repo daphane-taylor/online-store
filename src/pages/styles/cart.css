@@ -1,8 +1,43 @@
+.cart {
+	padding: 20px;
+}
+
 .cart h1 {
 	background-color: #6c757D;
 	color: #ffffff;
 }
 
 .cart p {
-	color: black;
+	color: #000000;
+}
+
+.cart .cart-prod {
+	border: 1px solid #6c757d;
+	padding: 0 10px 0 0;
+	display: flex;
+	border-radius: 5px;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.cart .cart-prod h6 {
+	font-style: bold;
+	flex: 2;
+}
+
+.cart .cart-prod label {
+	font-style: bold;
+	flex: 1;
+}
+	
+.cart .cart-prod button {
+	width: 80px;
+	padding: 0 10px 0 0;
+	text-align: center;
+}
+
+.cart .cart-prod img {
+	height: 100px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
 }

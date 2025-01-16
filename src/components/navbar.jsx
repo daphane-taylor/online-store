@@ -34,17 +34,13 @@ function Navbar() {
                         </li>
                     </ul>
                     <div className="d-flex" role="search">
-                        <button className="btn btn-sm btn-outline-secondary">{user.name}</button>
+                        <button className="btn btn-sm btn-outline-light btn-user">{user.name}</button>
+                        <Link className="btn btn-sm btn-outline-light" to="/cart">Cart<span>({cart.length})</span></Link>
                     </div>
-                    <ul className="navbar-nav mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/cart">Cart ({cart.length})</Link>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </nav>
-    );
+    )
 }
 
 export default Navbar;

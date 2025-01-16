@@ -1,15 +1,20 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import GlobalContext from '../state/globalContext';
 import QuantityPicker from './quantityPicker';
 import './styles/product.css';
 
 function Product(props) {
-
+	const [quantity, setQuantity] = useState(1);
 	const globalAdd = useContext(GlobalContext).addProductToCart;
 
 	function onAdd() {
-		console.log("Product added to cart");
-		globalAdd(props.data);
+		let fixedProduct = {...props.data};
+		fixedProduct.quantity = quantity;
+		globalAdd(fixedProduct);
+	}
+
+	function handleQuantity(qty) {
+		setQuantity(qty);
 	}
 
 	return (
@@ -23,7 +28,7 @@ function Product(props) {
 			</div>
 
 			<div className="parent">
-				<QuantityPicker />
+				<QuantityPicker  onChange={handleQuantity} />
 				<button className="btn btn-sm btn-outline-light" onClick={onAdd}>Add</button>
 			</div>
 		</div>
