@@ -1,11 +1,23 @@
+import dataService from '../services/dataService';
 import './styles/admin.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function Admin() {
     const [allCoupons, setAllCoupons] = useState([]);
     const [allProducts, setAllProducts] = useState([]);
     const [coupon, setCoupon] = useState({ code: "", discount: "" });
     const [product, setProduct] = useState({ title: "", price: "", image: "", category: "" });
+
+
+    async function loadData() {
+        const prods = await dataService.getProducts();
+        setAllProducts(prods);
+    
+    }
+
+    useEffect(function() {
+        loadData();
+    }, [])
 
 
     function handleCoupon(e) {
@@ -44,7 +56,7 @@ function Admin() {
         if (name == "title") {
             copy.title = text;
         } else if (name == "price"){
-            copy.price = text;
+            copy.price = parseFloat(text);
         } else if (name == "image"){
             copy.image = text;
         } else if (name == "category"){
@@ -53,8 +65,13 @@ function Admin() {
         setProduct(copy);
     }
 
-    function saveProduct() {
+    async function saveProduct() {
         console.log(product);
+
+        //save to server
+       let savedProduct = await dataService.saveProduct(product);
+       console.log("saved:", savedProduct);
+
         let copy = [...allProducts];
         copy.push(product);
         setAllProducts(copy);

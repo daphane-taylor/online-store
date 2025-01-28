@@ -5,3 +5,7 @@
 .qt-pickers{
 	background-color: #9da49a;
 }
+
+.qt-pickers:hover {
+	background-color:  #9da49a;
+}

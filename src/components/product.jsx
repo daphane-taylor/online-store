@@ -24,7 +24,7 @@ function Product(props) {
 			
 			<div className="parent">
 				<label>$99.99</label>
-				<label>${props.data.price.toFixed(2)}</label>
+				<label>${(+props.data.price).toFixed(2)}</label>
 			</div>
 
 			<div className="parent">

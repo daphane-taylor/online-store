@@ -10,11 +10,11 @@ function Catalog() {
 	const [collections, setCollections] = useState([]);
 	const [selectedCategory, setSelectedCategory] = useState("");
 
-	function loadData() {
-		const prods = dataService.getProducts();
+	async function loadData() {
+		const prods = await dataService.getProducts();
 		setAllProducts(prods);
 
-		const collection = dataService.getCategories();
+		const collection = await dataService.getCategories();
 		setCollections(collection);
 	}
 
@@ -28,7 +28,7 @@ function Catalog() {
 	}, []);
 
 	function clearFilter() {
-
+		setSelectedCategory("");
 	}
 
 	return (
