@@ -9,7 +9,7 @@ function Navbar() {
     const cart = useContext(GlobalContext).cart;
 
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg" data-bs-theme="light">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">CrystalWiki</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +34,8 @@ function Navbar() {
                         </li>
                     </ul>
                     <div className="d-flex" role="search">
-                        <button className="btn btn-sm btn-outline-light btn-user">{user.name}</button>
-                        <Link className="btn btn-sm btn-outline-light" to="/cart">Cart<span>({cart.length})</span></Link>
+                        <button className="btn btn-sm btn-user">{user.name}</button>
+                        <Link className="btn btn-sm btn-cart" to="/cart">Cart<span>({cart.length})</span></Link>
                     </div>
                 </div>
             </div>

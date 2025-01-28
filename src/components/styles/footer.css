@@ -1,17 +1,16 @@
 .footer-section {
-    font-family: 'Candara Light';
+    background-color: rgb(237, 240, 236, .75);
     padding: 3px;
     display: flex;
-    justify-content: space-around   ;
+    justify-content: space-around;
     height: 50px;
     align-items: center;
-    background-color: #6c757d;
-    border: 1px solid darkgray;
+    border: 1px solid rgb(237, 240, 236, .75);
+    ;
 }
 
 p {
-    font-family: 'Candara Light';
     text-align: center;
-    color: #FFFFFF;
+    color: #000000;
     letter-spacing: 1px;
 }

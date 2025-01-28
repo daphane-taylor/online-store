@@ -1,5 +1,41 @@
+.home {
+	background-color: #c4cdc1;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+	padding-top: 5px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row; 
+	justify-items: space-between;
+	background-color: rgb(237, 240, 236, .75);
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 75px;
+}
+
+.home .container {
+	width: 80%;
+	padding: 10px;
+	margin-top: 10px;
+}
+
 .home h1 {
-	background-color: #6c757d;
-	color: #ffffff;
-	text-align: center;
+	color: #000000;
+	
+}
+.home p {
+	color: #000000;
+	background-color: transparent;
+}
+
+.home .uppercase {
+	font-variant: uppercase;
+	font-size: xx-large;
+}
+
+.home .logo {
+	height: 300px;
+	width: 300px;
 }

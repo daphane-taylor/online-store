@@ -1,8 +1,19 @@
 .navbar {
-	background-color: #6c757d;
-	color: #ffffff;
+	background-color: #DCE1DA;
+	color: #000000;
+	border-bottom: 1px solid #ffffff;
 }
 
-.navbar .user-btn {
+.navbar .btn-user {
 	margin-right: 6px;
+	background-color:  #9da49a;
+}
+
+.navbar .links {
+	color: #000000;
+}
+
+.navbar .btn-cart {
+	margin-left: 5;
+	background-color: #9da49a;
 }

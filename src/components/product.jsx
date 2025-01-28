@@ -29,7 +29,7 @@ function Product(props) {
 
 			<div className="parent">
 				<QuantityPicker  onChange={handleQuantity} />
-				<button className="btn btn-sm btn-outline-light" onClick={onAdd}>Add</button>
+				<button className="btn btn-sm add" onClick={onAdd}>Add</button>
 			</div>
 		</div>
 	)

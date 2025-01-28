@@ -3,13 +3,12 @@ import GlobalContext from '../state/globalContext';
 import './styles/cart.css';
 
 function Cart() {
-
 	const cart = useContext(GlobalContext).cart;
 	return (
 		<div className="cart page">
-			<h1>Cart</h1>
-			<p>Welcome to your cart. Are you ready to complete your purchase?</p>
-			<h3>We have {cart.length} products waiting on you!</h3>
+			<p><span className="cart-title">Cart</span><br></br>
+			Welcome to your cart. Are you ready to complete your purchase?<br></br>
+			<span className="sub-title">We have {cart.length} products waiting on you!</span></p>
 
 			<div className="list">
 				<ul>

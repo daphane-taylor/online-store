@@ -1,14 +1,12 @@
 .catalog {
-	background-color: #FFFFFF;
+	background-color: #c4cdc1;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+	padding-top: 5px;
 }
 
 .catalog h2 {
-	background-color: #6c757d;
 	text-align: center;
-	padding-top: 20px;
-	color: #FFFFFF;
-	font-family: cursive;
-	border: 1px solid #FFFFFF;
+	color: #000000;
 }
 
 .catalog .filter {
@@ -17,4 +15,8 @@
 
 .catalog .filter button {
 	margin-right: 5px;
+}
+
+.catalog .categories {
+	background-color: #9da49a;
 }

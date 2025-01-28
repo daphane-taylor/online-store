@@ -1,3 +1,7 @@
 .qt-picker label {
 	margin: 0 5px;
 }
+
+.qt-pickers{
+	background-color: #9da49a;
+}

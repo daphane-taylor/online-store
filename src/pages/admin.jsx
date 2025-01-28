@@ -62,7 +62,7 @@ function Admin() {
 
 	return (
 		<div className="admin page">
-			<h1>Store Administration</h1>
+			<h1 className="flex-container">Store Administration</h1>
 			<div className="admin-container">
 				<div className="products-section">
 					<h3>Register Product</h3>

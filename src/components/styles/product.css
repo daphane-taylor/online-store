@@ -1,18 +1,19 @@
 .product {
+	background-color: rgb(237, 240, 236, .75);
 	font-family: 'Candara Light';
-	background-color: #6c757d;
-	border: 1px solid #FFFFFF;
+	border: 1px solid #ffffff;
 	border-radius: 5px;
-	color: #FFFFFF;
-	padding: 10px;
+	color: #000000;
+	padding: 6px;
 	height: 450px;
 	width: 270px;
 	display: inline-block;
 	margin: 0 10px 10px 0;
+	vertical-align: top;
 }
 
 .product:hover {
-	transform: skew(1deg,-1deg);
+	transform: skew(.5deg);
 }
 
 .product img {
@@ -20,10 +21,9 @@
 	max-height: 333.33px;
 }
 
-.product h3 {
-	color: darkred;
+.product h4 {
+	color: #000000;
 	margin: 0;
-	text-decoration: underline;
 } 
 
 .product .parent {
@@ -33,5 +33,6 @@
 }
 
 .product .btn {
-	color: #FFFFFF;
+	background-color: #c4cdc1;
+	color: #ffffff;
 }

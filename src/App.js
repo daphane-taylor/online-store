@@ -8,7 +8,6 @@ import Admin from './pages/admin';
 import Contact from './pages/contact';
 import GlobalProvider from './state/globalProvider';
 import Cart from './pages/cart';
-
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 
 import "bootstrap/dist/css/bootstrap.min.css";
